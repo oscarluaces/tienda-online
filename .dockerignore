@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Git
+.git
+.gitignore
+
+# Entornos virtuales
+.venv
+venv/
+
+# Tests y caché (los tests se ejecutan fuera de la imagen)
+.pytest_cache/
+tests/
+pytest.ini
+requirements-dev.txt
+
+# Secretos
+.env
+.env.*
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ficheros de Docker y documentación (no hacen falta dentro de la imagen)
+Dockerfile
+.dockerignore
+docker-compose*.yml
+README.md
